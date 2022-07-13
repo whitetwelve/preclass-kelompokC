@@ -10,5 +10,3 @@ function sortArray() {
     return `"` +firstWord + secondWord + thirdWord + `"`
 }
 console.log(sortArray());
-
-                    //maaf mas belum paham method sort 
