@@ -1,0 +1,78 @@
+<html>
+{{>header}}
+    <head>
+        <title>
+            {{title}}
+        </title>
+    </head>
+    <body>
+        <nav class="navbar" style="background-color: rgb(12, 13, 44); height:50px">
+                <button id="register" class=" btn btn-warning">
+                    <a style="text-decoration : none; color : rgb(255, 255, 255)" href="/register">Register</a>
+                </button>
+                <button id="login" class=" btn btn-warning">
+                    <a style="text-decoration : none; color : rgb(255, 255, 255)" href="/login">Login</a>
+                </button>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="title mt-5">
+                    <h1 class="fw-bold mt-5 text-white">
+                        Collections
+                    </h1>
+                </div>
+                
+                <div class="col">
+                    <div class="card" style="width: 12rem; height:10rem">
+                        <div class="card-body mt-4">
+                            <i class="fa-solid fa-list-check mb-4"></i>
+                            <h5 class="card-title">School</h5>
+                            <p class="card-text">2/9 done &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock"></i></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                        <div class="card" style="width: 12rem; height:10rem">
+                            <div class="card-body mt-4">
+                                <i class="fa-solid fa-list-check mb-4"></i>
+                                <h5 class="card-title">Work</h5>
+                                <p class="card-text">2/5 done&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-clock"></i></p>
+                            </div>
+                    </div>
+                </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 12rem; height:10rem">
+                            <div class="card-body mt-4">
+                                <i class="fa-solid fa-list-check mb-4"></i>
+                                <h5 class="card-title">Shopping</h5>
+                                <p class="card-text">All done!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa-solid fa-circle-check"></i></p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+    *{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    body{
+
+        background-color: black;
+    }
+    #register{
+        position: absolute;
+        left: 73rem;
+        border-radius:20px;
+    }
+    #login{
+    position: absolute;
+    left: 68rem;
+    border-radius:20px;
+    }
+</style>
